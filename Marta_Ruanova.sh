@@ -1,6 +1,6 @@
 #!/bin/bash
 # ● Función para conseguir os procesos do usuario que lanza o script
-function filtrarPorUsuario () {
+function filtrarPorUsuario(){
     usuario_actual=$(id -nu)
     eleccionPID=$( zenity --list  \
                 --text="Elije el PID" \
